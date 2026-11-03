@@ -13,24 +13,24 @@ permalink: /dashboard/
 <script>
 (function () {
   var frame = document.getElementById('dash');
+  var watched = null;
   function fit() {
     try {
       var doc = frame.contentDocument;
-      if (!doc || !doc.body) return;
+      if (!doc || !doc.body || doc.readyState === 'loading') return;
       var b = doc.body, cs = doc.defaultView.getComputedStyle(b);
       var h = b.offsetHeight + parseFloat(cs.marginTop) + parseFloat(cs.marginBottom);
-      frame.style.height = Math.ceil(h) + 'px';
-    } catch (e) { /* cross-origin: keep CSS fallback height */ }
+      if (h > 200) frame.style.height = Math.ceil(h) + 'px';
+      if (watched !== doc) {
+        watched = doc;
+        if (window.ResizeObserver) new ResizeObserver(fit).observe(b);
+        doc.addEventListener('click', function () { setTimeout(fit, 80); });
+        doc.addEventListener('change', function () { setTimeout(fit, 80); });
+      }
+    } catch (e) { /* not same-origin: keep the CSS height */ }
   }
-  frame.addEventListener('load', function () {
-    fit();
-    try {
-      var doc = frame.contentDocument;
-      if (window.ResizeObserver) new ResizeObserver(fit).observe(doc.body);
-      doc.addEventListener('click', function () { setTimeout(fit, 60); });
-      doc.addEventListener('change', function () { setTimeout(fit, 60); });
-    } catch (e) {}
-  });
+  frame.addEventListener('load', fit);
   window.addEventListener('resize', fit);
+  var n = 0, t = setInterval(function () { fit(); if (++n > 40) clearInterval(t); }, 250);
 })();
 </script>
