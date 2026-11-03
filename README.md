@@ -64,7 +64,7 @@ A 4–6. posztban `<!-- FIGURE ... MISSING -->` megjegyzések jelölik a hiányz
 
 ## Teendők
 
-- [ ] `dashboard/v4_dashboard.html` cseréje a valódi fájlra (digithist.com, `wp-content/uploads/dashboard/`)
+- [x] `dashboard/v4_dashboard.html` cseréje a valódi fájlra
 - [ ] A 10. (LGBTQI+) poszt szövege → `_drafts/lgbtqi-framing.md`, utána át a `_blog/` mappába
 - [ ] A 4–6. poszt ábrái
 - [ ] A 2025. február 14-i workshop helyszíne és programja
