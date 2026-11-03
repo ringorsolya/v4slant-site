@@ -55,7 +55,7 @@ The project's outputs form one open, reproducible pipeline: **corpus → code �
 
 ## Team and partners
 
-- **Principal investigator:** Orsolya Ring (HUN-REN Centre for Social Sciences)
+- **Principal investigator:** Orsolya Ring (ELTE Centre for Social Sciences)
 - **Researchers:** István Üveges, Jakub Stauber, Zoé Baumgartner, Viktor Kovács, Anna Rebak, László Kiss, Ákos Holányi
 - **Partner institutions:** Charles University, Faculty of Mathematics and Physics; Charles University, Faculty of Social Sciences; Kempelen Institute of Intelligent Technologies
 - **Contact:** [ring.orsolya@tk.hu](mailto:ring.orsolya@tk.hu)
