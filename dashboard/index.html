@@ -17,7 +17,9 @@ permalink: /dashboard/
     try {
       var doc = frame.contentDocument;
       if (!doc || !doc.body) return;
-      frame.style.height = doc.documentElement.scrollHeight + 'px';
+      var b = doc.body, cs = doc.defaultView.getComputedStyle(b);
+      var h = b.offsetHeight + parseFloat(cs.marginTop) + parseFloat(cs.marginBottom);
+      frame.style.height = Math.ceil(h) + 'px';
     } catch (e) { /* cross-origin: keep CSS fallback height */ }
   }
   frame.addEventListener('load', function () {
