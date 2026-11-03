@@ -30,7 +30,6 @@ Each partner prepared an article in its national language to reach readers beyon
 
 - Ring, O.: Uncovering disinformation: analysing the thematic patterns and emotional content of Hungarian fake news portals during the COVID-19 pandemic and the Ukrainian war. 6th Annual COMPTEXT Conference, 2–4 May 2024.
 - Holányi, Á.: The depiction of the war in Ukraine in Central European media. 28th Annual CEPSA Conference, Kaunas, 3 October 2024.
-- Sebők, M.: Ongoing AI solutions at poltextLAB. Festival of Hungarian Science, Budapest, 5 November 2024.
 
 ## Public dissemination
 
