@@ -15,6 +15,10 @@ layout: default
         <li>Led by the ELTE Centre for Social Sciences, Budapest</li>
       </ul>
     </div>
+    <a class="hero-shot" href="{{ '/dashboard/' | relative_url }}">
+      <img src="{{ '/assets/img/dashboard-charts.jpg' | relative_url }}" alt="Charts from the Media Slant Dashboard: emotion frequencies over time, emotion distribution by country and monthly article counts by country" width="1600" height="960">
+      <span>Explore the Media Slant Dashboard</span>
+    </a>
   </div>
 </section>
 
@@ -36,13 +40,14 @@ layout: default
     {% assign news = site.news | sort: "date" | reverse %}
     <ul class="item-list">
       {% for item in news limit: 5 %}
-      <li>
+      <li{% if item.image %} class="has-thumb"{% endif %}>
         <span class="item-date">{{ item.date | date: "%-d %B %Y" }}</span>
         <div>
           <span class="kind">{{ item.type }}</span>
           <a class="item-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
           {% if item.summary %}<p class="item-summary">{{ item.summary }}</p>{% endif %}
         </div>
+        {% if item.image %}<a class="thumb" href="{{ item.url | relative_url }}" tabindex="-1" aria-hidden="true"><img src="{{ item.image | relative_url }}" alt="" loading="lazy"></a>{% endif %}
       </li>
       {% endfor %}
     </ul>

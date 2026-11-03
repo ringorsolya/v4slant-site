@@ -22,6 +22,11 @@ The project's outputs form one open, reproducible pipeline: **corpus → code �
 5. **Emotion analysis.** Texts were segmented into sentences and classified with emotion models fine-tuned for each V4 language, trained on expert-annotated data and validated by domain experts.
 6. **Visualisation.** The results are published in an interactive [dashboard]({{ '/dashboard/' | relative_url }}).
 
+<figure>
+  <a href="{{ '/dashboard/' | relative_url }}"><img src="{{ '/assets/img/dashboard-overview.jpg' | relative_url }}" alt="The Media Slant Dashboard with filters for country, source, topic, emotion and period, and emotion trend charts" width="1600" height="960"></a>
+  <figcaption>The Media Slant Dashboard: 2.9 million articles, filterable by country, outlet, topic, emotion and period.</figcaption>
+</figure>
+
 ## Unified topic categories
 
 | Code | Topic | Covers |
@@ -54,6 +59,11 @@ The project's outputs form one open, reproducible pipeline: **corpus → code �
 - **Emotion models:** [huggingface.co/visegradmedia-emotion](https://huggingface.co/visegradmedia-emotion). If you use the models, please cite Üveges & Ring (2025), [*Information*, 16(4), 330](https://doi.org/10.3390/info16040330).
 
 ## Team and partners
+
+<figure>
+  <img src="{{ '/assets/img/events/bmw2024-03.jpg' | relative_url }}" alt="Participants following a presentation at the 2nd Budapest Methods Workshop" width="908" height="606">
+  <figcaption>2nd Budapest Methods Workshop, November 2024.</figcaption>
+</figure>
 
 - **Principal investigator:** Orsolya Ring (ELTE Centre for Social Sciences)
 - **Researchers:** István Üveges, Viktor Kovács, Anna Rebak, László Kiss, Ákos Holányi

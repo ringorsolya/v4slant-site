@@ -11,13 +11,14 @@ permalink: /news/
   {% assign news = site.news | sort: "date" | reverse %}
   <ul class="item-list">
     {% for item in news %}
-    <li>
+    <li{% if item.image %} class="has-thumb"{% endif %}>
       <span class="item-date">{{ item.date | date: "%-d %B %Y" }}</span>
       <div>
         <span class="kind">{{ item.type }}</span>
         <a class="item-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
         {% if item.summary %}<p class="item-summary">{{ item.summary }}</p>{% endif %}
       </div>
+      {% if item.image %}<a class="thumb" href="{{ item.url | relative_url }}" tabindex="-1" aria-hidden="true"><img src="{{ item.image | relative_url }}" alt="" loading="lazy"></a>{% endif %}
     </li>
     {% endfor %}
   </ul>
