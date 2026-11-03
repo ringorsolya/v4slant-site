@@ -60,5 +60,5 @@ The project's outputs form one open, reproducible pipeline: **corpus → code �
 - **Czech partner:** Jakub Stauber (Charles University, Prague)
 - **Slovak partner:** Jaroslav Kopčan (Kempelen Institute of Intelligent Technologies, Bratislava)
 - **Polish partner:** Krzysztof Rybiński (Vistula University, Warsaw)
-- **Partner institutions:** Charles University, Faculty of Mathematics and Physics; Charles University, Faculty of Social Sciences; Kempelen Institute of Intelligent Technologies
+- **Partner institutions:** Charles University, Faculty of Mathematics and Physics; Charles University, Faculty of Social Sciences; Kempelen Institute of Intelligent Technologies; Vistula University
 - **Contact:** [ring.orsolya@tk.hu](mailto:ring.orsolya@tk.hu)
