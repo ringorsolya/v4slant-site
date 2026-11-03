@@ -3,11 +3,32 @@ layout: default
 title: Media Slant Dashboard
 permalink: /dashboard/
 ---
-<div class="wrap page">
-  <header class="page-head">
-    <h1>Media Slant Dashboard</h1>
-    <p class="lead">Article-level emotion classification and topic modelling of online news in Hungary, Poland, Czechia and Slovakia, 2018–2024. Filter by country, outlet, topic, emotion and period.</p>
-  </header>
-  <iframe class="dash-frame" src="{{ '/dashboard/v4_dashboard.html' | relative_url }}?v={{ site.time | date: '%s' }}" title="V4 Media Slant Dashboard" loading="lazy"></iframe>
-  <p class="caption"><a href="{{ '/dashboard/v4_dashboard.html' | relative_url }}?v={{ site.time | date: '%s' }}">Open the dashboard in full screen</a></p>
+<div class="wrap dash-head">
+  <h1>Media Slant Dashboard</h1>
+  <p class="lead">Emotions and topics in 2.9 million articles from 35 Czech, Hungarian, Polish and Slovak news outlets, January 2018 – March 2024. <a href="{{ '/dashboard/v4_dashboard.html' | relative_url }}?v={{ site.time | date: '%s' }}">Open in a separate window</a></p>
 </div>
+<div class="dash-wrap">
+  <iframe id="dash" class="dash-frame" src="{{ '/dashboard/v4_dashboard.html' | relative_url }}?v={{ site.time | date: '%s' }}" title="V4 Media Slant Dashboard" scrolling="no"></iframe>
+</div>
+<script>
+(function () {
+  var frame = document.getElementById('dash');
+  function fit() {
+    try {
+      var doc = frame.contentDocument;
+      if (!doc || !doc.body) return;
+      frame.style.height = doc.documentElement.scrollHeight + 'px';
+    } catch (e) { /* cross-origin: keep CSS fallback height */ }
+  }
+  frame.addEventListener('load', function () {
+    fit();
+    try {
+      var doc = frame.contentDocument;
+      if (window.ResizeObserver) new ResizeObserver(fit).observe(doc.body);
+      doc.addEventListener('click', function () { setTimeout(fit, 60); });
+      doc.addEventListener('change', function () { setTimeout(fit, 60); });
+    } catch (e) {}
+  });
+  window.addEventListener('resize', fit);
+})();
+</script>
