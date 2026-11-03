@@ -12,10 +12,19 @@ lead: Peer-reviewed articles and book chapters supported by the International Vi
 - Rybinski, K., & Ring, O. (2024). International Organisations legitimation in the media in Eurasian post-socialist countries. *Intersections. East European Journal of Society and Politics*, 10(3). [https://doi.org/10.17356/ieejsp.v10i3.1296](https://doi.org/10.17356/ieejsp.v10i3.1296)
 - Kiss, L. (2024). A médiatorzítástól a párhuzamos valóságokig. A közoktatás helyzetével kapcsolatos diskurzus két magyarországi online portálon. *Médiakutató*, 25(2), 7–20. [https://doi.org/10.55395/MK.2024.2.1](https://doi.org/10.55395/MK.2024.2.1)
 
+## National-language articles
+
+Each partner prepared an article in its national language to reach readers beyond English-language academia.
+
+- Hungarian: Kiss, L. (2024). A médiatorzítástól a párhuzamos valóságokig. *Médiakutató*, 25(2), 7–20. [https://doi.org/10.55395/MK.2024.2.1](https://doi.org/10.55395/MK.2024.2.1)
+- Slovak: Skresľujú médiá informácie v digitálnej dobe? *Veda na dosah*, 15 April 2025. [Read online](https://vedanadosah.cvtisr.sk/technika/skresluju-media-informacie-v-digitalnej-dobe/)
+- Slovak: Kritická situácia slovenského zdravotníctva v online tlači. Submitted to the *Slovak Journal of Political Science*.
+- Polish: Wpływowi politycy w postsocjalistycznych mediach. Submitted to *Studia Medioznawcze*.
+- Czech: Obraz rusko-ukrajinské války v českých médiích. Manuscript.
+
 ## Forthcoming
 
-- Sebők, M., Ring, O., Molnár, Cs., & Takács, A. The Shifting Global Allegiances of Central-Eastern Europe: An AI-supported Comparative Analysis. In a volume forthcoming with Cambridge University Press.
-- The portrayal of the crisis in Slovak healthcare in Slovak online media. Submitted to the *Slovak Journal of Political Science*.
+- Sebők, M., Ring, O., Molnár, Cs., & Takács, A. *The Shifting Global Allegiances of Central-Eastern Europe: An AI-supported Comparative Analysis.* Accepted for publication by Cambridge University Press.
 
 ## Conference presentations
 
