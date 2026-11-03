@@ -9,7 +9,7 @@ News content has a powerful impact on society and politics. A vast amount of inf
 
 Slant is the more or less favourable news coverage of an individual or group. It can be explicit, if people are aware of it, but it is often implicit or unconscious. News slant can affect which events and stories are published and the perspective from which they are written. We hypothesise that slant manifests not only in what news describes, but in where it places emphasis, how it frames events, and what it keeps silent about.
 
-The project studied crisis communication – the COVID-19 pandemic, the Russia–Ukraine war and domestic political crises – in the online news of Czechia, Hungary, Poland and Slovakia, analysing about five million articles published between 2018 and 2024.
+The project studied crisis communication – the COVID-19 pandemic, the Russia–Ukraine war and domestic political crises – in the online news of Czechia, Hungary, Poland and Slovakia, drawing on a corpus of about five million articles published between 2018 and 2024. The [dashboard]({{ '/dashboard/' | relative_url }}) presents the analysis of 2,899,733 articles from 35 outlets, January 2018 – March 2024.
 
 ## Research pipeline
 
