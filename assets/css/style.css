@@ -137,7 +137,7 @@ figcaption, .caption { font-size: 14px; color: var(--muted); margin-top: 6px; }
 /* Footer */
 .site-footer { border-top: 2px solid var(--ink); padding: 36px 0 44px; font-size: 15px; color: var(--muted); }
 .footer-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 40px; }
-.ivf-logo img { display: block; margin-bottom: 12px; background: #fff; padding: 4px; }
+.ivf-logo img { display: block; width: 280px; max-width: 100%; margin-bottom: 14px; background: #fff; padding: 6px; }
 .small { font-size: 14px; }
 
 @media (max-width: 720px) {
