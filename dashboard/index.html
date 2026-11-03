@@ -20,7 +20,7 @@ permalink: /dashboard/
       if (!doc || !doc.body || doc.readyState === 'loading') return;
       var b = doc.body, cs = doc.defaultView.getComputedStyle(b);
       var h = b.offsetHeight + parseFloat(cs.marginTop) + parseFloat(cs.marginBottom);
-      if (h > 200) frame.style.height = Math.ceil(h) + 'px';
+      if (h > 200) frame.style.height = (Math.ceil(h) + 2) + 'px';
       if (watched !== doc) {
         watched = doc;
         if (window.ResizeObserver) new ResizeObserver(fit).observe(b);
