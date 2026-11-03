@@ -1,20 +1,21 @@
 ---
 layout: default
-title: News & events
+title: News and events
 permalink: /news/
 ---
 <div class="wrap page">
   <header class="page-head">
-    <h1>News &amp; events</h1>
+    <h1>News and events</h1>
     <p class="lead">Workshops, conference presentations, publications and project milestones.</p>
   </header>
   {% assign news = site.news | sort: "date" | reverse %}
   <ul class="item-list">
     {% for item in news %}
     <li>
-      <span class="item-date">{{ item.date | date: "%-d %b %Y" }}</span>
+      <span class="item-date">{{ item.date | date: "%-d %B %Y" }}</span>
       <div>
-        <span class="item-type">{{ item.type }}</span><a class="item-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        <span class="kind">{{ item.type }}</span>
+        <a class="item-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
         {% if item.summary %}<p class="item-summary">{{ item.summary }}</p>{% endif %}
       </div>
     </li>
