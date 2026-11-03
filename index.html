@@ -1,0 +1,69 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Visegrad Fund project 22310057</p>
+    <h1>{{ site.long_title }}</h1>
+    <p>Our project applies text mining and natural language processing methods, including novel approaches based on language modelling and deep learning, to identify slant in online news and so promote resilience against biased reporting.</p>
+    <p>We analysed around five million articles from Czech, Hungarian, Polish and Slovak news portals published between 2018 and 2024.</p>
+    <p class="hero-meta">1 October 2023 – 30 June 2025 · Led by the HUN-REN Centre for Social Sciences, Budapest</p>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <div class="section-head"><h2>Open research outputs</h2><a href="{{ '/about/' | relative_url }}">About the project →</a></div>
+    <div class="tiles">
+      <a class="tile" href="{{ '/dashboard/' | relative_url }}"><strong>Media Slant Dashboard</strong><span>Explore emotions and topics across V4 news outlets, 2018–2024.</span></a>
+      <a class="tile" href="https://osf.io/45et2/"><strong>News corpus (OSF)</strong><span>Visegradmedia – Central European News Corpus, available for research on request.</span></a>
+      <a class="tile" href="https://huggingface.co/visegradmedia-emotion"><strong>Emotion models</strong><span>Fine-tuned XLM-RoBERTa models for Czech, Hungarian, Polish and Slovak on Hugging Face.</span></a>
+      <a class="tile" href="https://github.com/ringorsolya/visegradmedia"><strong>Code (GitHub)</strong><span>Preprocessing, LDA topic modelling and emotion classification scripts in R and Python.</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <div class="section-head"><h2>Latest news &amp; events</h2><a href="{{ '/news/' | relative_url }}">All news →</a></div>
+    {% assign news = site.news | sort: "date" | reverse %}
+    <ul class="item-list">
+      {% for item in news limit: 5 %}
+      <li>
+        <span class="item-date">{{ item.date | date: "%-d %b %Y" }}</span>
+        <div>
+          <span class="item-type">{{ item.type }}</span><a class="item-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% if item.summary %}<p class="item-summary">{{ item.summary }}</p>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <div class="section-head"><h2>From the blog</h2><a href="{{ '/blog/' | relative_url }}">All posts →</a></div>
+    {% assign posts = site.blog | sort: "order" %}
+    <div class="cards">
+      {% for post in posts limit: 3 %}
+      <div class="card">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.summary }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <div class="section-head"><h2>Partners</h2></div>
+    <ul class="partners">
+      <li><span class="role">Coordinator</span><a href="https://politikatudomany.tk.hu/en">HUN-REN Centre for Social Sciences, Institute for Political Science</a>, Budapest</li>
+      <li><span class="role">Partner</span><a href="https://www.mff.cuni.cz/en">Charles University, Faculty of Mathematics and Physics</a>, Prague</li>
+      <li><span class="role">Partner</span><a href="https://fsv.cuni.cz/en">Charles University, Faculty of Social Sciences</a>, Prague</li>
+      <li><span class="role">Partner</span><a href="https://kinit.sk/">Kempelen Institute of Intelligent Technologies</a>, Bratislava</li>
+    </ul>
+  </div>
+</section>

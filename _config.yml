@@ -1,0 +1,34 @@
+title: "V4 Media Slant"
+long_title: "Identifying News Slant in Crisis Communication Using Artificial Intelligence"
+description: >-
+  A Visegrad Fund project (No. 22310057) applying text mining and deep-learning
+  language models to identify slant in online news in Czechia, Hungary, Poland
+  and Slovakia.
+lang: en
+# Leave baseurl empty when the site is served from its own (sub)domain,
+# e.g. visegradmediaslant.tk.hu. Set it to "/<repo-name>" only if you test
+# the site at https://<user>.github.io/<repo-name>/ before the domain is ready.
+baseurl: "/v4slant-site"
+url: ""
+
+markdown: kramdown
+permalink: pretty
+
+collections:
+  news:
+    output: true
+    permalink: /news/:slug/
+  blog:
+    output: true
+    permalink: /blog/:slug/
+
+defaults:
+  - scope: { path: "", type: news }
+    values: { layout: post, kind: News }
+  - scope: { path: "", type: blog }
+    values: { layout: post, kind: Blog }
+
+exclude:
+  - README.md
+  - LEIRAS.md
+  - _drafts

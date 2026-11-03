@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.summary | default: site.description | strip_html | normalize_whitespace | truncate: 160 }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <span class="brand-mark">V4</span>
+        <span class="brand-text">Media Slant</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        {% assign path = page.url %}
+        <a href="{{ '/about/' | relative_url }}" {% if path contains '/about' %}aria-current="page"{% endif %}>Project</a>
+        <a href="{{ '/news/' | relative_url }}" {% if path contains '/news' %}aria-current="page"{% endif %}>News &amp; events</a>
+        <a href="{{ '/blog/' | relative_url }}" {% if path contains '/blog' %}aria-current="page"{% endif %}>Blog</a>
+        <a href="{{ '/publications/' | relative_url }}" {% if path contains '/publications' %}aria-current="page"{% endif %}>Publications</a>
+        <a href="{{ '/dashboard/' | relative_url }}" {% if path contains '/dashboard' %}aria-current="page"{% endif %}>Dashboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="funding">
+        <a href="https://www.visegradfund.org/" class="ivf-logo"><img src="{{ '/assets/img/logos/visegrad_fund.png' | relative_url }}" alt="Visegrad Fund" width="180"></a>
+        <p>The project is co-financed by the Governments of Czechia, Hungary, Poland and Slovakia through Visegrad Grants from the <a href="https://www.visegradfund.org/">International Visegrad Fund</a>. The mission of the fund is to advance ideas for sustainable regional cooperation in Central Europe.</p>
+        <p class="small">Project No. 22310057 · Implementation period: 1 October 2023 – 30 June 2025</p>
+      </div>
+      <div class="footer-contact">
+        <p><strong>HUN-REN Centre for Social Sciences</strong><br>Institute for Political Science<br>4 Tóth Kálmán utca, 1097 Budapest, Hungary</p>
+        <p>Contact: <a href="mailto:ring.orsolya@tk.hu">ring.orsolya@tk.hu</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

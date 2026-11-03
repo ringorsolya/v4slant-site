@@ -1,0 +1,40 @@
+---
+title: "Media capture"
+order: 3
+summary: How governments influence individual outlets – from state advertising and public media to courts and violence – and why it threatens democracy.
+---
+*The bias of the media can directly harm the functioning of democracy, since the majority of people can only find information from the news selected by the media. How can the phenomenon of captured media develop and how can we recognize it?*
+
+In earlier blog posts, we detailed how, in today's mediatised societies, the media not only informs but also often shapes public opinion and, as such, is a crucial platform for every political actor. Since we get information about governmental activities through the media, influencing the media can be an attractive opportunity for any government. In this context, the concept of media capture arises, which is one particularly problematic manifestation of media bias. As the term suggests, media capture refers to external influence on the media; it occurs when a particular government influences media outlets, thereby manipulating the content and nature of their reporting. Such a practice raises numerous ethical and democratic concerns as it threatens media independence and pluralism, which are fundamental to democratic societies.
+
+Media capture occurs when a particular media outlet or outlets shape their reporting based on government incentives or pressure. However, for capture to occur, the government must have tools to influence individual media outlets rather than just the entire media market. Moving forward, we will go through various manifestations and types of media bias, categorised based on the means of exerting influence. When examining media capture in scholarly literature, it is always a prerequisite to demonstrate that a particular media outlet genuinely distorts its reporting due to government intervention.
+
+## State advertising
+
+One of the most effective tools available to any government is the budget. The most practical way to selectively allocate state resources is by directing advertising spending only to certain "privileged" media outlets. In a Hungarian analysis, Ádám Szeidl and Ferenc Szűcs examined the correlation between state advertising and the content of media coverage ([Szeidl & Szucs, 2021](https://doi.org/10.3982/ECTA15641)). Their analysis concluded that state advertisements significantly influence news coverage; media outlets receiving them were less likely to report on scandals examined during the research. In a previous analysis, Attila Bátorfy and Ágnes Urbán detailed how successive Hungarian governments used state advertising to shape the media environment ([Bátorfy & Urbán, 2020](https://doi.org/10.1080/21599165.2019.1662398)). State advertisements influence media outlets in two ways. Firstly, they provide a financial incentive to modify their reporting. Secondly, they make it more profitable in the long term for entities aligned with the ruling party or parties to operate media outlets, thus exerting a longer-term distorting effect.
+
+## Public media
+
+The case of public media deserves special attention. On the one hand, through positive examples, we can see that it can provide impartial and high-quality news coverage. However, all too often, public media functions as a propaganda tool for the government. This is particularly problematic considering that in most countries, the largest press organisations are some form of public media ([Djankov et al., 2003](https://doi.org/10.1086/377116)). The case of Poland is illustrative in terms of public media and media capture. While the Law and Justice Party (PiS) was in power, criticism was regularly directed at the public media's coverage ([Kerpel, 2017](https://discovery.ucl.ac.uk/id/eprint/1538690/1/5.pdf)). Subsequently, after a multi-party coalition led by the Civic Coalition (KO) came to power, significant changes in the leadership of state media led to prolonged conflicts ([Politico, 2023](https://www.politico.eu/article/poland-media-revolution-pis-law-and-justice-tusk-duda/)). The situation with Hungarian public media is similar; in 2020, a leaked recording revealed that Balázs Bende explicitly instructed several public media employees that it was their job to strengthen and represent the government's position before the European Parliament elections in March.
+
+> "Bende Balázs: The situation is as follows: everyone is aware that at the end of May, there are European parliamentary elections, and I am sure that no one will be surprised if I say that in this institution… we do not support the opposition coalition. If this statement surprises anyone, they can leave now. For those not surprised, it is not surprising that if the institution supports it, we all work accordingly. There's no question. There will be no question about what material I want in the future. There will be no question about how to write that material. Those who don't know can also go home and need not return."
+> ([Telex, 2020](https://telex.hu/belfold/2020/11/12/kozmedia-kiszivargo-hangfelvetel-ellenzeki-osszefogas-bende-balazs))
+
+## Bribery, courts and violence
+
+Bribery, as a tool, initially appears significantly similar to state advertising; a government expects certain types of coverage in exchange for financial compensation. However, two crucial differences distinguish the two cases. Firstly, bribery is not legal, unlike advertising. Secondly, the first point leads to the second: state advertising is documented, allowing citizens at least the opportunity to understand how the government influences the media, thus making the government more accountable to unoccupied press organs and civil organisations.
+
+In countries where judicial institutions have partially or entirely fallen under government control, courts often turn against journalists and media outlets to hinder their operations. Finally, it is important to mention the most radical tool of media capture: violence against journalists, which is also frequently used for intimidation purposes and to exert control over individual media outlets.
+
+Thus far, we have examined what media capture is and provided examples of its various manifestations and types. It is important to bear in mind that the concept of media capture is an ideal type; it generally cannot be fully matched with real cases. Governments cannot exert absolute control, and there are no governments that do not influence their countries' media environment. Reality typically lies somewhere between the two extremes. As seen in the tools of media capture listed, examples escalate in terms of their consequences and violations of democratic norms. Generally, it can be said that the worse a country's democratic institutions' checks and balances function, the greater the impact the government has on the media.
+
+## Studies cited
+
+<div class="refs" markdown="1">
+- Bátorfy, A., & Urbán, Á. (2020). State advertising as an instrument of transformation of the media market in Hungary. *East European Politics*, 36(1), 44–65. <https://doi.org/10.1080/21599165.2019.1662398>
+- Djankov, S., McLiesh, C., Nenova, T., & Shleifer, A. (2003). Who Owns the Media? *The Journal of Law and Economics*, 46(2), 341–382. <https://doi.org/10.1086/377116>
+- Kerpel, A. (2017). Pole and Hungarian cousins be? A comparison of State media capture, ideological narratives and political truth monopolization in Hungary and Poland. *SLOVO Journal*, 29(1), 68–93. <https://discovery.ucl.ac.uk/id/eprint/1538690/1/5.pdf>
+- Kiszivárgott hangfelvételen magyarázzák a köztévé vezető szerkesztői, hogy „az intézményben nem az ellenzéki összefogást támogatják". (2020, November 12). *Telex*. <https://telex.hu/belfold/2020/11/12/kozmedia-kiszivargo-hangfelvetel-ellenzeki-osszefogas-bende-balazs>
+- Poland's media revolution turns into a political battle. (2023, December 27). *POLITICO*. <https://www.politico.eu/article/poland-media-revolution-pis-law-and-justice-tusk-duda/>
+- Szeidl, A., & Szucs, F. (2021). Media Capture Through Favor Exchange. *Econometrica*, 89(1), 281–310. <https://doi.org/10.3982/ECTA15641>
+</div>

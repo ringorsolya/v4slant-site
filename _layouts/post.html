@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article class="wrap page">
+  <header class="page-head">
+    <p class="eyebrow">
+      {% if page.collection == 'news' %}<a href="{{ '/news/' | relative_url }}">News &amp; events</a>{% else %}<a href="{{ '/blog/' | relative_url }}">Blog</a>{% endif %}
+      {% if page.type %} · {{ page.type }}{% endif %}
+    </p>
+    <h1>{{ page.title }}</h1>
+    <p class="meta">
+      {% if page.collection == 'news' %}{% if page.date_end %}{% assign m1 = page.date | date: "%m%Y" %}{% assign m2 = page.date_end | date: "%m%Y" %}{% if m1 == m2 %}{{ page.date | date: "%-d" }}–{{ page.date_end | date: "%-d %B %Y" }}{% else %}{{ page.date | date: "%-d %B %Y" }} – {{ page.date_end | date: "%-d %B %Y" }}{% endif %}{% else %}{{ page.date | date: "%-d %B %Y" }}{% endif %}{% endif %}
+      {% if page.place %} · {{ page.place }}{% endif %}
+      {% if page.author %}{% if page.collection == 'news' %} · {% endif %}{{ page.author }}{% endif %}
+    </p>
+  </header>
+  {% if page.image %}
+  <figure class="hero-figure"><img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}"></figure>
+  {% endif %}
+  <div class="prose">
+    {{ content }}
+  </div>
+  {% if page.link %}
+  <p class="cta"><a class="button" href="{{ page.link }}">{{ page.link_label | default: "Read more" }} →</a></p>
+  {% endif %}
+</article>
