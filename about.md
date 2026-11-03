@@ -60,11 +60,6 @@ The project's outputs form one open, reproducible pipeline: **corpus → code �
 
 ## Team and partners
 
-<figure>
-  <img src="{{ '/assets/img/events/bmw2024-03.jpg' | relative_url }}" alt="Participants following a presentation at the 2nd Budapest Methods Workshop" width="908" height="606">
-  <figcaption>2nd Budapest Methods Workshop, November 2024.</figcaption>
-</figure>
-
 - **Principal investigator:** Orsolya Ring (ELTE Centre for Social Sciences)
 - **Researchers:** István Üveges, Viktor Kovács, Anna Rebak, László Kiss, Ákos Holányi
 - **Czech partner:** Jakub Stauber (Charles University, Prague)
