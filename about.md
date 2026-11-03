@@ -60,10 +60,10 @@ The project's outputs form one open, reproducible pipeline: **corpus → code �
 
 ## Team and partners
 
-- **Principal investigator:** Orsolya Ring (ELTE Centre for Social Sciences)
+- **Principal investigator:** Orsolya Ring ([ELTE Centre for Social Sciences](https://politikatudomany.tk.elte.hu/en))
 - **Researchers:** István Üveges, Viktor Kovács, Anna Rebak, László Kiss, Ákos Holányi
-- **Czech partner:** Jakub Stauber (Charles University, Prague)
-- **Slovak partner:** Jaroslav Kopčan (Kempelen Institute of Intelligent Technologies, Bratislava)
-- **Polish partner:** Krzysztof Rybiński (Vistula University, Warsaw)
-- **Partner institutions:** Charles University, Faculty of Mathematics and Physics; Charles University, Faculty of Social Sciences; Kempelen Institute of Intelligent Technologies; Vistula University
+- **Czech partner:** Jakub Stauber ([Charles University, Faculty of Social Sciences](https://fsv.cuni.cz/en), Prague)
+- **Slovak partner:** Jaroslav Kopčan ([Kempelen Institute of Intelligent Technologies](https://kinit.sk/), Bratislava)
+- **Polish partner:** Krzysztof Rybiński ([Vistula University](https://www.vistula.edu.pl/en), Warsaw)
+- **Partner institutions:** [Charles University, Faculty of Mathematics and Physics](https://www.mff.cuni.cz/en); [Charles University, Faculty of Social Sciences](https://fsv.cuni.cz/en); [Kempelen Institute of Intelligent Technologies](https://kinit.sk/); [Vistula University](https://www.vistula.edu.pl/en)
 - **Contact:** [ring.orsolya@tk.hu](mailto:ring.orsolya@tk.hu)
