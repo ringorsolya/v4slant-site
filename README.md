@@ -65,7 +65,7 @@ A 4–6. posztban `<!-- FIGURE ... MISSING -->` megjegyzések jelölik a hiányz
 ## Teendők
 
 - [x] `dashboard/v4_dashboard.html` cseréje a valódi fájlra
-- [ ] A 10. (LGBTQI+) poszt szövege → `_drafts/lgbtqi-framing.md`, utána át a `_blog/` mappába
+- [x] A 10. (LGBTQI+) poszt szövege
 - [ ] A 4–6. poszt ábrái
 - [ ] A 2025. február 14-i workshop helyszíne és programja
 - [ ] Az új, elfogadott cikk felvétele hírként, amikor megjelenik
