@@ -8,8 +8,8 @@ lang: en
 # Leave baseurl empty when the site is served from its own (sub)domain,
 # e.g. visegradmediaslant.tk.hu. Set it to "/<repo-name>" only if you test
 # the site at https://<user>.github.io/<repo-name>/ before the domain is ready.
-baseurl: "/v4slant-site"
-url: ""
+baseurl: ""
+url: "https://visegradmediaslant.tk.hu"
 
 markdown: kramdown
 permalink: pretty

@@ -57,7 +57,7 @@ A 4–6. posztban `<!-- FIGURE ... MISSING -->` megjegyzések jelölik a hiányz
 
 ## Saját tk.hu-s domain
 
-1. Kérd meg a TK informatikusait, hogy vegyenek fel egy CNAME rekordot: `visegradmediaslant.tk.hu  CNAME  ringorsolya.github.io.`
+1. ✔ Kész (2026. november): a TK informatikusai felvették a CNAME rekordot: `visegradmediaslant.tk.hu  CNAME  ringorsolya.github.io.`
 2. Ha a DNS él, a repó **Settings → Pages → Custom domain** mezőjébe írd be: `visegradmediaslant.tk.hu`, majd kapcsold be az **Enforce HTTPS** opciót. A GitHub ekkor létrehoz egy `CNAME` fájlt a repóban.
 3. A `_config.yml`-ben állítsd vissza: `baseurl: ""`.
 4. Biztonsági lépés: a GitHub-fiókod **Settings → Pages → Verified domains** menüjében igazold a `tk.hu` domaint (ehhez egy TXT rekord kell, ezt is az IT veszi fel). Így más nem tudja a tk.hu-s aldomaint a saját GitHub-oldalára irányítani.
